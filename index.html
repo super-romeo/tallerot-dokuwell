@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Para talleres mecánicos en Chile: recepción con fotos, presupuesto aprobado, orden de trabajo con repuestos, aviso al cliente e historial.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">TallerOT</a></div>
-  <nav class="top"><a href="#que" data-ev="click_nav_que">Qué obtienes</a><a href="price.html" data-ev="click_nav_precio">Precio</a><a href="#ejemplo" data-ev="click_nav_ejemplo">Ejemplo</a><a href="#start" data-ev="click_nav_start">Empezar</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">TallerOT</a>
+  <nav><a href="#que" data-ev="click_nav_que">Qué obtienes</a><a href="price.html" data-ev="click_nav_precio">Precio</a><a href="#ejemplo" data-ev="click_nav_ejemplo">Ejemplo</a><a href="#start" data-ev="click_nav_start">Empezar</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Del auto en la recepción a la entrega — cada orden de trabajo en un solo lugar</h1>
-    <p class="sub">Para talleres con uno a seis mecánicos: cliente y vehículo registrados al recibirlo, presupuesto que el cliente aprueba, mano de obra y repuestos en la orden, estado visible para todos.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Lo necesito</a>
-    <p class="cta-note">Servicio en preparación · En esta página no se acepta ningún pago</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Para talleres mecánicos</p>
+      <h1 class="rise" style="--i:1" data-len="long">Del auto en la recepción a la entrega&nbsp;<span class="soft">— cada orden de trabajo en un solo lugar</span></h1>
+      <p class="rise" style="--i:2">Para talleres con uno a seis mecánicos: cliente y vehículo registrados al recibirlo, presupuesto que el cliente aprueba, mano de obra y repuestos en la orden, estado visible para todos.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Lo necesito</a>
+      <p class="meta rise" style="--i:4">Servicio en preparación · En esta página no se acepta ningún pago</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" fill="#0a1524" font-weight="600">Recepción</text><line x1="130" y1="214" x2="1070" y2="214" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="160" y="260" width="880" height="80" fill="#dfe8f7" rx="28" stroke="#dde2ea" stroke-width="3" /><circle cx="214" cy="300" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><text x="260" y="310" font-size="32" fill="#0a1524">recibido</text><rect x="160" y="370" width="880" height="80" fill="#dfe8f7" rx="28" stroke="#dde2ea" stroke-width="3" /><circle cx="214" cy="410" r="16" fill="#12397a" stroke="#12397a" stroke-width="4" /><text x="260" y="420" font-size="32" fill="#0a1524">reparación</text><rect x="160" y="480" width="880" height="80" fill="#dfe8f7" rx="28" stroke="#dde2ea" stroke-width="3" /><circle cx="214" cy="520" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><text x="260" y="530" font-size="32" fill="#0a1524">listo</text><rect x="160" y="590" width="880" height="80" fill="#dfe8f7" rx="28" stroke="#dde2ea" stroke-width="3" /><circle cx="214" cy="630" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><text x="260" y="640" font-size="32" fill="#0a1524">entregado</text></svg></figure>
+    <dl class="facts">
+      <div><dt>Para</dt><dd>Talleres mecánicos</dd></div>
+      <div><dt>Orden</dt><dd>Orden de trabajo</dd></div>
+      <div><dt>Cliente</dt><dd>En el navegador</dd></div>
+      <div><dt>Servicio</dt><dd>Servicio en preparación</dd></div>
+    </dl>
+  </section>
 
   <section id="que" data-view="features_view">
-    <h2>Qué obtienes</h2>
-    <div class="grid">
-      <div class="card"><b>Recepción</b><span>Cliente, patente, kilometraje y fotos del daño en un minuto.</span><br><a class="btn" href="price.html" data-ev="feature_recepcion">Lo necesito</a></div>
-      <div class="card"><b>Presupuesto</b><span>Presupuesto enviado al cliente y aprobado antes de trabajar.</span><br><a class="btn" href="price.html" data-ev="feature_presupuesto">Lo necesito</a></div>
-      <div class="card"><b>Orden de trabajo</b><span>Mano de obra y repuestos registrados en la orden.</span><br><a class="btn" href="price.html" data-ev="feature_orden">Lo necesito</a></div>
-      <div class="card"><b>Entrega</b><span>Aviso al cliente cuando el auto está listo e historial guardado.</span><br><a class="btn" href="price.html" data-ev="feature_entrega">Lo necesito</a></div>
+    <div class="stack"><h2>Qué obtienes</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="36" fill="#0a1524" font-weight="600">Recepción</text><text x="110" y="196" font-size="30" fill="#566174">patente</text><rect x="110" y="250" width="420" height="26" fill="#dde2ea" rx="8" /><rect x="110" y="322" width="300" height="26" fill="#b9c3d2" rx="8" /><rect x="110" y="394" width="360" height="26" fill="#dde2ea" rx="8" /><circle cx="640" cy="460" r="36" fill="#dfe8f7" /><polyline points="616,460 634,482 668,430" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Recepción</h3><p>Cliente, patente, kilometraje y fotos del daño en un minuto.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_recepcion">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="136" font-size="36" fill="#0a1524" font-weight="600">Presupuesto</text><rect x="120" y="200" width="540" height="78" fill="#dfe8f7" rx="28" /><circle cx="168" cy="239" r="14" fill="#ffffff" stroke="#12397a" stroke-width="4" /><text x="204" y="248" font-size="30" fill="#0a1524">WhatsApp</text><rect x="120" y="320" width="540" height="78" fill="#dfe8f7" rx="28" /><circle cx="168" cy="359" r="14" fill="#12397a" stroke="#12397a" stroke-width="4" /><text x="204" y="368" font-size="30" fill="#0a1524">aprueba</text></svg></div>
+        <h3>Presupuesto</h3><p>Presupuesto enviado al cliente y aprobado antes de trabajar.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_presupuesto">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="36" fill="#0a1524" font-weight="600">repuestos</text><line x1="120" y1="470" x2="680" y2="470" stroke="#b9c3d2" stroke-width="4" fill="none" /><rect x="140" y="360" width="72" height="110" fill="#dfe8f7" rx="8" /><rect x="270" y="290" width="72" height="180" fill="#dde2ea" rx="8" /><rect x="400" y="380" width="72" height="90" fill="#b9c3d2" rx="8" /><rect x="530" y="230" width="72" height="240" fill="#12397a" rx="8" /></svg></div>
+        <h3>Orden de trabajo</h3><p>Mano de obra y repuestos registrados en la orden.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_orden">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="220" y="48" width="360" height="504" fill="#ffffff" rx="36" stroke="#dde2ea" stroke-width="3" /><circle cx="400" cy="86" r="10" fill="#b9c3d2" /><rect x="260" y="170" width="280" height="150" fill="#dfe8f7" rx="18" /><polygon points="300,320 250,320 270,360" fill="#dfe8f7" /><text x="284" y="230" font-size="30" fill="#0a1524" font-weight="600">Entrega</text><rect x="284" y="258" width="180" height="20" fill="#ffffff" rx="8" /><rect x="300" y="460" width="200" height="40" fill="#12397a" rx="12" /></svg></div>
+        <h3>Entrega</h3><p>Aviso al cliente cuando el auto está listo e historial guardado.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_entrega">Lo necesito</a>
+      </article>
     </div>
   </section>
 
-  <section id="ejemplo" data-view="example_view">
-    <h2>Ejemplo (datos ficticios)</h2>
-    <p class="fine">Un taller con tres mecánicos recibe un auto con ruido en los frenos. En la recepción se registra la patente, el kilometraje y dos fotos. El presupuesto de pastillas y discos llega al cliente por WhatsApp y lo aprueba. La orden muestra repuestos y horas, y cuando el auto está listo el cliente recibe el aviso.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Elegir un plan</a>
+  <section id="ejemplo" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Ejemplo</h2>
+      <p>Un taller con tres mecánicos recibe un auto con ruido en los frenos. En la recepción se registra la patente, el kilometraje y dos fotos. El presupuesto de pastillas y discos llega al cliente por WhatsApp y lo aprueba. La orden muestra repuestos y horas, y cuando el auto está listo el cliente recibe el aviso.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Elegir un plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">patente</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">presupuesto</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">aviso</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" fill="#0a1524" font-weight="600">WhatsApp</text><rect x="170" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="280" y="460" width="64" height="64" fill="#12397a" rx="10" /><rect x="390" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="500" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="610" y="460" width="64" height="64" fill="#12397a" rx="10" /><rect x="720" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><text x="170" y="640" font-size="32" fill="#566174">tres mecánicos</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Cómo funciona</h2>
-    <p>Los talleres mecánicos pequeños en Chile reciben autos todos los días y muchas veces llevan las órdenes en un cuaderno, en hojas sueltas o en una planilla. Al final del día cuesta saber qué auto está esperando repuestos y cuál ya está listo.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Cómo funciona</h2></div>
+    <div class="stack">
+      <p>Los talleres mecánicos pequeños en Chile reciben autos todos los días y muchas veces llevan las órdenes en un cuaderno, en hojas sueltas o en una planilla. Al final del día cuesta saber qué auto está esperando repuestos y cuál ya está listo.</p>
     <p>También se pierde información importante: qué repuestos se usaron, cuántas horas tomó el trabajo y si el cliente aprobó el presupuesto más caro. Cuando el cliente llama para preguntar por su auto, alguien tiene que ir a buscar el papel.</p>
     <p>El sistema lleva cada orden de trabajo en un solo lugar. En la recepción se registra el cliente y el vehículo: patente, marca, modelo, año y kilometraje. Se anota lo que el cliente pide revisar y se agregan fotos del estado del auto.</p>
     <p>Con el diagnóstico se arma el presupuesto: mano de obra y repuestos con sus precios. El presupuesto se envía al cliente por correo o WhatsApp, y su aprobación queda guardada en la orden antes de empezar el trabajo.</p>
@@ -115,31 +149,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>El dueño del taller ve cuántas órdenes están abiertas, cuántos autos esperan repuestos y cuánto se facturó en la semana. Con varios mecánicos, cada uno ve sus órdenes y el dueño ve el avance de todos.</p>
     <p>Para empezar basta con media hora: crear el taller, cargar las tarifas de mano de obra y los repuestos más usados, y la próxima orden ya es digital. El sistema funciona en el navegador, en una tablet en el taller y en el celular, sin instalar nada.</p>
     <p>El sistema está pensado para talleres mecánicos pequeños e independientes en Chile, no para cadenas. Está en preparación: primero revisamos si los talleres lo necesitan. El taller sigue siendo responsable de las reparaciones, los cobros y los documentos tributarios.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Preguntas frecuentes</h2>
-    <h3>¿Para quién es el sistema?</h3>
-    <p>Para talleres mecánicos pequeños e independientes en Chile.</p>
-    <h3>¿El cliente aprueba el presupuesto?</h3>
-    <p>Sí, recibe el presupuesto por correo o WhatsApp y su aprobación queda en la orden.</p>
-    <h3>¿Emite boletas del SII?</h3>
-    <p>No. La boleta o factura se sigue emitiendo como hoy; el sistema lleva la orden y el presupuesto.</p>
-    <h3>¿Tengo que instalar algo?</h3>
-    <p>No, funciona en el navegador, en tablet y en celular.</p>
-    <h3>¿Ya lo puedo usar?</h3>
-    <p>Todavía no. El sistema está en preparación y estamos revisando si los talleres lo necesitan.</p>
+    <div class="stack"><h2>Preguntas frecuentes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>¿Para quién es el sistema?</h3><p>Para talleres mecánicos pequeños e independientes en Chile.</p></div>
+      <div class="split flip"><h3>¿El cliente aprueba el presupuesto?</h3><p>Sí, recibe el presupuesto por correo o WhatsApp y su aprobación queda en la orden.</p></div>
+      <div class="split flip"><h3>¿Emite boletas del SII?</h3><p>No. La boleta o factura se sigue emitiendo como hoy; el sistema lleva la orden y el presupuesto.</p></div>
+      <div class="split flip"><h3>¿Tengo que instalar algo?</h3><p>No, funciona en el navegador, en tablet y en celular.</p></div>
+      <div class="split flip"><h3>¿Ya lo puedo usar?</h3><p>Todavía no. El sistema está en preparación y estamos revisando si los talleres lo necesitan.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Registre su taller</h2>
-    <p><label>Órdenes por semana<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— elige —</option><option>Hasta 10</option><option>11–30</option><option>31–60</option><option>Más de 60</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Comenzar</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Registre su taller</h2>
+    </div>
+    <div class="tile stack">
+      <label>Órdenes por semana<select data-ev-focus="form_start"><option value="">— elige —</option><option>Hasta 10</option><option>11–30</option><option>31–60</option><option>Más de 60</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Comenzar</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>TallerOT</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacidad</a></p>
-  <p class="muted">Sistema de órdenes de trabajo para su taller. El taller es responsable de las reparaciones, los cobros y los documentos tributarios.</p>
+  <p>Sistema de órdenes de trabajo para su taller. El taller es responsable de las reparaciones, los cobros y los documentos tributarios.</p>
 </div></footer>
 
 </body>
